@@ -1,4 +1,4 @@
-const CALENDAR_ID = 'shota.kasai02@g.softbank.co.jp';
+const CALENDAR_ID = CalendarApp.getId();
 
 function getCalendarEvents() {
   const calendar = CalendarApp.getCalendarById(CALENDAR_ID);
